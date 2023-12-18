@@ -117,7 +117,7 @@ The Cribl Pack Dispensary is the go-to place to find, install and share Cribl Pa
 
 **PROBLEM #4 - COST CONCERN (WITH AN EXAMPLE)**  
 
-The graph below originates from my home lab(24 hours span), featuring my pfsense firewall situated at the home perimeter, sending logs to Cribl via syslog. Utilizing parser, eval, and suppress functions (for testing purposes; in a distributed environment, a redis lookup table is required), I've effectively filtered out less valuable logs for security analytics. This vividly illustrates the significant reduction in both data volume and events per second (EPS) achieved in real-time as the data flows through Cribl
+The graph below originates from my home lab(24 hours span), featuring my pfsense firewall situated at the home perimeter, sending logs to Cribl via syslog. Utilizing parser, eval, and suppress functions (for testing purposes; in a distributed environment, a redis lookup table is required), I've effectively filtered out less valuable logs for security analytics. This vividly illustrates the significant reduction in both data volume and events per second (EPS) achieved in real-time as the data flows through Cribl. The numbers are just from my lab, can you imagine for your production environment ? 
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/c312659a-f822-4ed3-a03b-ca9f4abdef84)  
 
