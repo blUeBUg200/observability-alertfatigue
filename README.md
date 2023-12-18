@@ -56,7 +56,15 @@ Upon closer examination and a more profound comprehension of the framework, I've
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/de840a2b-b93c-45b3-bffc-612f1a6de4c9)
 
+Examining the intricate diagram above reveals that the data pipeline contributes significantly, constituting 50% of the efficiency in running a detection engineering lifecycle.
+
+Yet, statistical insights from Panther Labs underscore that current SIEM capabilities fall short in aiding Detection Engineers and SOCs to execute tasks integral to their daily routines. Key challenges include the "complexity of adding new data", "intricate solution structures", "a deficit in features and functionality", "limited product usability", "a lack of customization options", and "cost concerns (which will be delved into later in this post)". 
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/b9ce6caf-b919-40b2-9d19-b77262776fad)
+> Credits : Pantherlabs Survey 2021
+
+This leads us to contemplate the implementation of an independent data layer preceding the final destination tool, such as a SIEM. By adopting a distinct data pipeline, we can achieve streamlined data management, facilitating the enrichment process for detection engineers to effortlessly leverage high-quality data in the creation of use cases.
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/c23280f4-8dcc-4712-a999-68d4d8d1bb6c)
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/384e7e1c-a58a-4d1d-8e52-60f9b44fff66)
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/ee677aec-9db6-4a1c-bba2-0eec42403991)
