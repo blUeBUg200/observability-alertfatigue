@@ -24,7 +24,7 @@ Forbes featured a survey (links for which are provided at the end of this post) 
 
 After examining the survey results and drawing insights from my interactions with analysts in my network, it is evident that the primary challenges highlighted by analysts include high false positives, an overwhelming alert volume, and insufficient context. As frontline responders in any SOC, analysts should be provided with high-quality alerts enriched with significant security context. This ensures their ability to swiftly identify malicious activities, eliminating the need for prolonged, fruitless searches.
 
-Alright, now that we have insights into what needs fixing, let's explore where and by whom this problem can be addressed. Before delving into that, let's discuss the origin of the alerts. You may have already guessed it. Hooray! It's none other than DATA.
+Alright, now that we have insights into what needs fixing, let's explore where and by whom this problem can be addressed. Before delving into that, let's discuss the origin of the alerts. You may have already guessed it. Hooray! It's none other than **DATA**.
 
 ## The Source
 
