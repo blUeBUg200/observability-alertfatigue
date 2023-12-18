@@ -61,7 +61,7 @@ Examining the intricate diagram above reveals that the data pipeline contributes
 Yet, statistical insights from Panther Labs underscore that current SIEM capabilities fall short in aiding Detection Engineers and SOCs to execute tasks integral to their daily routines. Key challenges include the "complexity of adding new data", "intricate solution structures", "a deficit in features and functionality", "limited product usability", "a lack of customization options", and "cost concerns (which will be delved into later in this post)". 
 
 ````
-Question from the survery(refer the report from the link at the bottom for more detail):
+From the survery (Links at the bottom of this post):
 Q: When it comes to your SIEM plans for the upcoming 12 - 24 months, what is most accurate?
 Answers:
 1. We are happy with our current vendor  
@@ -71,6 +71,7 @@ Answers:
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/384e7e1c-a58a-4d1d-8e52-60f9b44fff66)
 > Credits : Pantherlabs Survey 2022 - Happy with exisiting SIEM
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/ee677aec-9db6-4a1c-bba2-0eec42403991)
 > Credits : Pantherlabs Survey 2022 - Unhappy with exisiting SIEM
 
