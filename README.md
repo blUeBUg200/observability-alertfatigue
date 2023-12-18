@@ -1,17 +1,15 @@
 # Observability-driven Solutions to Alleviate Analyst Alert Fatigue in Cybersecurity
 
 ## Audience
-Whether you're a seasoned observability professional, a curious newcomer exploring the world of detection engineering, someone looking to operationalize MITRE ATT&CK, or even if you've accidentally stumbled upon this page, this is the place for you.
+Whether you're a seasoned observability professional, a curious newcomer exploring the world of detection engineering, someone looking to operationalize MITRE ATT&CK, or even if you've accidentally stumbled upon this page, this is the place for you. This post will be helpful for below audience and definitely beyond that 😄
 
-🔍 **Observability Enthusiasts**:
-Whether you're a seasoned observer or just starting to explore the world of observability, our discussions and resources provide insights into harnessing the power of real-time data and telemetry. Join us to unravel the mysteries of system behaviors, uncover hidden anomalies, and master the art of proactive threat detection.
+🔍 **Observability Enthusiasts**
+🛠️ **Detection Engineering Aficionado**
+🤖 **MITRE ATT&CK Devotees**
+🤔 **Curious Learner**
+😜 **Click-happy**
 
-🛠️ **Detection Engineering Aficionado**:
-For those passionate about crafting resilient detection mechanisms, our community serves as a hub for sharing best practices, methodologies, and tools in the realm of detection engineering. Dive deep into the intricacies of building and optimizing detection capabilities, from rule creation to leveraging machine learning for advanced threat detection.
-
-🤖 **MITRE ATT&CK Devotees**:
-Immerse yourself in the MITRE ATT&CK framework, the industry-standard knowledge base for understanding the actions and tactics of cyber adversaries. Explore tactics, techniques, and procedures (TTPs), and engage with like-minded professionals to stay ahead of the curve in threat intelligence and response.
-
+## Usecase Briefing
 Are you a SOC analyst looking for a way to understand your customer environment ? This usecase is build exclusively for you.
 
 **Usecase:**
