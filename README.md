@@ -62,7 +62,7 @@ Yet, statistical insights from Panther Labs underscore that current SIEM capabil
 
 ````
 Question from the survery(refer the report from the link at the bottom for more detail):
-When it comes to your SIEM plans for the upcoming 12 - 24 months, what is most accurate?
+Q: When it comes to your SIEM plans for the upcoming 12 - 24 months, what is most accurate?
 Answers:
 1. We are happy with our current vendor  
 2. We are unhappy with our current vendor and evaluating  
