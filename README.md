@@ -3,10 +3,10 @@
 ## Audience
 Whether you're a seasoned observability professional, a curious newcomer exploring the world of detection engineering, someone looking to operationalize MITRE ATT&CK, or even if you've accidentally stumbled upon this page, this is the place for you. This post will be helpful for below audience and definitely beyond that 😄
 
-🔍 **Observability Enthusiasts**
-🛠️ **Detection Engineering Aficionado**
-🤖 **MITRE ATT&CK Devotees**
-🤔 **Curious Learner**
+🔍 **Observability Enthusiasts**__
+🛠️ **Detection Engineering Aficionado**__
+🤖 **MITRE ATT&CK Devotees**__
+🤔 **Curious Learner**__
 😜 **Click-happy**
 
 ## Usecase Briefing
