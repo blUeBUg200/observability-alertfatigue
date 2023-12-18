@@ -123,7 +123,8 @@ The graph below originates from my home lab(24 hours span), featuring my pfsense
 
 ## Conclusion  
 
-![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/142101ac-2b24-4377-a6c4-a4594c8acd42)
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/dcc90e78-faaf-4bd4-a015-fe7dc36273c8)
+
 
 
 
