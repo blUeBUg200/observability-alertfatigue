@@ -45,6 +45,17 @@ Search for Detection Engineers within your office; they are the individuals entr
 
 ## From A Detection Engineer's Kitchen
 
+*For those who are new:* Detection Engineering, a formidable team at the forefront of cybersecurity, is charged with crafting and refining sophisticated detection mechanisms. Tasked with identifying and neutralizing threats, they meticulously design, implement, and optimize detection rules and protocols. Their expertise lies in translating threat intelligence into actionable defense strategies, ensuring organizations stay resilient in the face of evolving cyber threats.
+
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/d43b680d-c20f-42c9-82e6-acd461759add)
+
+
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/de840a2b-b93c-45b3-bffc-612f1a6de4c9)
+
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/b9ce6caf-b919-40b2-9d19-b77262776fad)
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/c23280f4-8dcc-4712-a999-68d4d8d1bb6c)
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/384e7e1c-a58a-4d1d-8e52-60f9b44fff66)
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/ee677aec-9db6-4a1c-bba2-0eec42403991)
 
 
 
