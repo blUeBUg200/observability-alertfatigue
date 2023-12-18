@@ -80,12 +80,48 @@ Answers:
 
 This leads us to contemplate the implementation of an independent data layer preceding the final destination tool, such as a SIEM. By adopting a distinct data pipeline, we can achieve streamlined data management, facilitating the enrichment process for detection engineers to effortlessly leverage high-quality data in the creation of use cases.
 
+## KEY TAKEAWAY @ 3/4
+Key insights gathered so far reveal a concerning trend.
 
+- Analysts are grappling with alert burnout due to elevated false positive rates. 
+- The continuous surge in data volume, predicted to reach 200 Zettabytes by 2025, exacerbates the challenge. 
+- The escalating data inflow inevitably triggers more alerts and false positives, making it nearly impossible for analysts to discern true positives. 
+- Seeking precision, we turn to the detection engineering team; however, they too face challenges, contending with rigid products and limited customization features.
+- This has led us to advocate for a separate data panel, decoupled from SIEM and analytic tools, to elevate the quality of detection engineering.
 
+## Observability
 
+As per Cribl : Observability pipeline gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure.
 
+As per Dynatrace : In IT and cloud computing, observability is the ability to measure a system’s current state based on the data it generates, such as logs, metrics, and traces. Observability has become more critical in recent years as cloud-native environments have gotten more complex, and the potential root causes for a failure or anomaly have become more difficult to pinpoint.
 
+From the preceding explanations, you may now possess a comprehensive understanding of the observability pipeline. Let's delve into Cribl as our observability platform of choice. A visual representation of Cribl is provided in a high-level diagram for your reference.
 
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/cd4765f2-8565-4462-9581-f6ff6d4c9c58)
+> Credits : Cribl
+
+We've selected three significant challenges from the previous section, and we will explore how an observability pipeline like Cribl can assist in overcoming these issues.
+
+**PROBLEM #1 - COMPLEXITY OF ADDING NEW DATA**  
+Incorporating data sources into Cribl is remarkably straightforward. It facilitates a native log collection mechanism and boasts extensive integrations for cloud-native applications. Below links for your reference,  
+[Cribl Sources](https://cribl.io/integrations/?jsf=jet-engine&tax=integration_category:69)  
+[Cribl Destination](https://cribl.io/integrations/?jsf=jet-engine&tax=integration_category:70)  
+
+**PROBLEM #2 - A DEFICIT IN FEATURES AND FUNCTIONALITY**  
+The functionality of applying various operations on incoming data within Cribl is impressive. This encompasses reduction, routing, filtering, enrichment, and aggregation, providing data engineers with a seamless experience in slicing and dicing data before it reaches its destination.
+
+**Few words from Cribl :**  
+The Cribl Pack Dispensary is the go-to place to find, install and share Cribl Packs. What are Packs? A Cribl Pack is a collection of pre-built routes, pipelines, data samples, and knowledge objects. Packs enable sharing of best-practice configurations that route, shape, reduce and enrich a given log source–Palo Alto Networks logs for example. Packs can be used with Cribl Stream and Cribl Edge.
+
+[Cribl Packs Dispensary](https://packs.cribl.io/)  
+
+**PROBLEM #4 - COST CONCERN (WITH AN EXAMPLE)**  
+
+The graph below originates from my home lab(24 hours span), featuring my pfsense firewall situated at the home perimeter, sending logs to Cribl via syslog. Utilizing parser, eval, and suppress functions (for testing purposes; in a distributed environment, a redis lookup table is required), I've effectively filtered out less valuable logs for security analytics. This vividly illustrates the significant reduction in both data volume and events per second (EPS) achieved in real-time as the data flows through Cribl
+
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/c312659a-f822-4ed3-a03b-ca9f4abdef84)  
+
+## Conclusion  
 
 
 
