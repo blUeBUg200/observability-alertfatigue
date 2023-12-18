@@ -60,14 +60,26 @@ Examining the intricate diagram above reveals that the data pipeline contributes
 
 Yet, statistical insights from Panther Labs underscore that current SIEM capabilities fall short in aiding Detection Engineers and SOCs to execute tasks integral to their daily routines. Key challenges include the "complexity of adding new data", "intricate solution structures", "a deficit in features and functionality", "limited product usability", "a lack of customization options", and "cost concerns (which will be delved into later in this post)". 
 
+````
+Question from the survery(refer the report from the link at the bottom for more detail):
+When it comes to your SIEM plans for the upcoming 12 - 24 months, what is most accurate?
+Answers:
+1. We are happy with our current vendor  
+2. We are unhappy with our current vendor and evaluating  
+3. We are unhappy with our current vendor and haven’t started evaluating.
+````
+
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/384e7e1c-a58a-4d1d-8e52-60f9b44fff66)
+> Credits : Pantherlabs Survey 2022 - Happy with exisiting SIEM
+![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/ee677aec-9db6-4a1c-bba2-0eec42403991)
+> Credits : Pantherlabs Survey 2022 - Unhappy with exisiting SIEM
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/b9ce6caf-b919-40b2-9d19-b77262776fad)
 > Credits : Pantherlabs Survey 2021
 
 This leads us to contemplate the implementation of an independent data layer preceding the final destination tool, such as a SIEM. By adopting a distinct data pipeline, we can achieve streamlined data management, facilitating the enrichment process for detection engineers to effortlessly leverage high-quality data in the creation of use cases.
 
-![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/c23280f4-8dcc-4712-a999-68d4d8d1bb6c)
-![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/384e7e1c-a58a-4d1d-8e52-60f9b44fff66)
-![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/ee677aec-9db6-4a1c-bba2-0eec42403991)
+
 
 
 
