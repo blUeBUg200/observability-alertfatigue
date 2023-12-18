@@ -50,7 +50,9 @@ Search for Detection Engineers within your office; they are the individuals entr
 Let's break down the Detection Engineering process by incorporating the SANS Detection Engineering Lifecycle.
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/d43b680d-c20f-42c9-82e6-acd461759add)
+> Credits : SANS
 
+Upon closer examination and a more profound comprehension of the framework, I've delineated the lifecycle into three primary segments: Intelligence, Operations, and Data Pipeline. A visual representation of this breakdown is provided below for your reference
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/de840a2b-b93c-45b3-bffc-612f1a6de4c9)
 
