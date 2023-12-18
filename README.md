@@ -123,12 +123,11 @@ The graph below originates from my home lab(24 hours span), featuring my pfsense
 
 ## Conclusion  
 
+After conducting a comprehensive analysis in this post, it becomes evident that addressing analyst burnout is a critical concern, emphasizing the pivotal role of a robust detection engineering team in cyber defense strategies. Detection engineers should be equipped with tools of flexibility and scalability which help them to have control over data and to pick the right data (framework such as CTID's Sensor Mappings to ATT&CK (SMAP) for their analytics. The freedom granted by an Observability pipeline, such as Cribl, holds substantial importance in the present and future digital landscape, marked by ever-growing data. Concluding with a knowledge graph as a post outcome,  
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/dcc90e78-faaf-4bd4-a015-fe7dc36273c8)
 
-
-
-
-
+I welcome discussions and feedback on this topic. Feel free to reach me via email "kaviarasan one one nine five at gmail dot com" or connect with me on LinkedIn.
 
 ## For More Details
 [Cribl](https://cribl.io/blog/logs-events-metrics-and-traces-oh-my/)  
