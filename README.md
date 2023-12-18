@@ -10,7 +10,7 @@ Whether you're a seasoned observability professional, a curious newcomer explori
 😜 **Link Wanderers**
 
 ## Usecase Briefing
-Are you a SOC analyst looking for a way to understand your customer environment ? This usecase is build exclusively for you.
+In this blog, we will explore how the incorporation of an observability platform, coupled with a resilient detection engineering approach (utilizing sigma and the MITRE CTID SMAP framework), can enhance organizational work quality and alleviate the significant operational burden of analyst alert fatigue. The methodology elucidated in this article is derived from my personal experience, a comprehensive understanding of prevailing challenges, and the analysis of publicly available statistics concerning current Security Operations Center (SOC) challenges. It is important to note that this proposed approach is not the sole method for addressing the discussed problem; rather, its implementation can vary based on individual experiences, taking on diverse forms and structures.
 
 **Usecase:**
 An analyst working in SOC operations, monitoring multiple customers from decentralized console trying to understand the group of customer names having technology X
