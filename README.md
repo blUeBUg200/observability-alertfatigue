@@ -42,3 +42,26 @@ Things are getting rather unsettling now, aren't they? We face significant chall
 Perhaps you find yourself in a state of confusion at this point, don't you?
 
 Search for Detection Engineers within your office; they are the individuals entrusted with shouldering this challenge. Don't have one? That's okay. Read through this blog and consider devising a plan to establish one.
+
+## From A Detection Engineer's Kitchen
+
+
+
+
+
+
+
+
+
+## For More Details
+[Cribl](https://cribl.io/blog/logs-events-metrics-and-traces-oh-my/)  
+[Sigma](https://sigmahq.io/)  
+[Forbes](https://www.forbes.com/sites/forbestechcouncil/2022/12/07/five-predictions-for-the-future-of-threat-detection/?sh=ba7173b57896)  
+[Arcserve Report](https://cybersecurityventures.com/wp-content/uploads/2020/12/ArcserveDataReport2020.pdf)  
+[Panther Report 2021](https://panther.com/wp-content/uploads/2023/01/State-of-SIEM-2021.pdf)  
+[Panther Report 2022](https://panther.com/wp-content/uploads/2023/01/Panther_SOSR_22.pdf)  
+[CTID SMAP Framework](https://github.com/center-for-threat-informed-defense/sensor-mappings-to-attack)  
+[Pollfish Polling Method](https://www.pollfish.com/methodology/)  
+[SANS Detection Engineering](https://www.sans.org/blog/purple-teaming-threat-informed-detection-engineering/)  
+[Orca Report on Alert Fatigue](https://orca.security/lp/2022-cloud-security-alert-fatigue-report/)  
+[Cloud Transformation Report by Splunk](https://www.splunk.com/pdfs/analyst-reports/the-state-of-cloud-driven-transformation-hbr.pdf)  
