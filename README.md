@@ -7,7 +7,7 @@ Whether you're a seasoned observability professional, a curious newcomer explori
 🛠️ **Detection Engineering Aficionado**  
 🤖 **MITRE ATT&CK Devotees**  
 🤔 **Curious Learner**  
-😜 **Click-happy**
+😜 **Link Wanderers**
 
 ## Usecase Briefing
 Are you a SOC analyst looking for a way to understand your customer environment ? This usecase is build exclusively for you.
