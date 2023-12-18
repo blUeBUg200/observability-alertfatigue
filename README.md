@@ -47,6 +47,8 @@ Search for Detection Engineers within your office; they are the individuals entr
 
 *For those who are new:* Detection Engineering, a formidable team at the forefront of cybersecurity, is charged with crafting and refining sophisticated detection mechanisms. Tasked with identifying and neutralizing threats, they meticulously design, implement, and optimize detection rules and protocols. Their expertise lies in translating threat intelligence into actionable defense strategies, ensuring organizations stay resilient in the face of evolving cyber threats.
 
+Let's break down the Detection Engineering process by incorporating the SANS Detection Engineering Lifecycle.
+
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/d43b680d-c20f-42c9-82e6-acd461759add)
 
 
