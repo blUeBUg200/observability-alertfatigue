@@ -1,4 +1,4 @@
-# Observability-driven Solutions to Alleviate Analyst Alert Fatigue in Cybersecurity
+# Observability-driven Solutions to Alleviate Analyst Alert Fatigue
 
 ## Audience
 Whether you're a seasoned observability professional, a curious newcomer exploring the world of detection engineering, someone looking to operationalize MITRE ATT&CK, or even if you've accidentally stumbled upon this page, this is the place for you. This post will be helpful for below audience and definitely beyond that 😄
