@@ -123,7 +123,15 @@ The graph below originates from my home lab(24 hours span), featuring my pfsense
 
 ## Conclusion  
 
-After conducting a comprehensive analysis in this post, it becomes evident that addressing analyst burnout is a critical concern, emphasizing the pivotal role of a robust detection engineering team in cyber defense strategies. Detection engineers should be equipped with tools of flexibility and scalability which help them to have control over data and to pick the right data (framework such as CTID's Sensor Mappings to ATT&CK (SMAP) for their analytics. The freedom granted by an Observability pipeline, such as Cribl, holds substantial importance in the present and future digital landscape, marked by ever-growing data. Concluding with a knowledge graph and an equation as a post outcome,  
+- Based on the analysis presented in this post, it is evident that analyst burnout is a serious concern, underscoring the need to implement an optimal detection engineering process to alleviate such challenges. 
+
+- Providing detection engineers with versatile and scalable tools is essential. These tools empower the team to choose the appropriate data for threat detection and maintain control over the ingestion pipeline to perform operations that enrich contextual information. When it comes to acting as a sword and shield for your detection engineers, there is no better choice than an Observability tool, such as Cribl, to execute tasks with higher precision.
+
+- Leveraging frameworks like CTID's Sensor Mappings to ATT&CK (SMAP) enhances the mindset of your detection engineers when it comes to selecting the appropriate data for analytics. Additionally, sources such as Sigma HQ and MITRE Cyber Analytics Repository (CAR) contribute to a vendor-agnostic approach in deploying use cases.
+
+- Relying on legacy systems that struggle to keep pace with the latest trends poses the greatest risk to an organization. Organizations embracing a more vendor-agnostic approach have a higher likelihood of operational success compared to those that do not.
+
+Being that said, I conclude with a knowledge graph and an equation as an outcome of this post.
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/f613d076-5ad5-40d3-85bc-b4bf965c96db)  
 
