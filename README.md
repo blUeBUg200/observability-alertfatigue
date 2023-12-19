@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Observability-driven Solutions to Alleviate Analyst Alert Fatigue in Cybersecurity
 
 ## Audience
