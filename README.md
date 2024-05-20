@@ -1,4 +1,4 @@
-# Observability-driven Solutions to Alleviate Analyst Alert Fatigue
+# Observability Data Pipeline Driven Solutions to Alleviate Analyst Alert Fatigue
 
 ## Audience
 Whether you're a seasoned observability professional, a curious newcomer exploring the world of detection engineering, someone looking to operationalize MITRE ATT&CK, or even if you've accidentally stumbled upon this page, this is the place for you. This post will be helpful for below audience and definitely beyond that 😄
@@ -11,7 +11,7 @@ Whether you're a seasoned observability professional, a curious newcomer explori
 😜 **Link Wanderers**
 
 ## Usecase Briefing
-In this blog, we will explore how the incorporation of an observability platform, coupled with a resilient detection engineering approach (utilizing sigma and the MITRE CTID SMAP framework), can enhance organizational work quality and alleviate the significant operational burden of analyst alert fatigue. The methodology elucidated in this article is derived from my personal experience, a comprehensive understanding of prevailing challenges, and the analysis of publicly available statistics concerning current Security Operations Center (SOC) challenges. It is important to note that this proposed approach is not the sole method for addressing the discussed problem; rather, its implementation can vary based on individual experiences, taking on diverse forms and structures.
+In this blog, we will explore how the incorporation of an observability data pipeline platform, coupled with a resilient detection engineering approach (utilizing sigma and the MITRE CTID SMAP framework), can enhance organizational work quality and alleviate the significant operational burden of analyst alert fatigue. The methodology elucidated in this article is derived from my personal experience, a comprehensive understanding of prevailing challenges, and the analysis of publicly available statistics concerning current Security Operations Center (SOC) challenges. It is important to note that this proposed approach is not the sole method for addressing the discussed problem; rather, its implementation can vary based on individual experiences, taking on diverse forms and structures.
 
 ## From Analysts Shoes
 Forbes featured a survey (links for which are provided at the end of this post) conducted by Panther Labs on the state of SIEM, presenting statistics on the challenges encountered in Security Operations Centers (SOCs) with legacy SIEM systems. The 2021 and 2022 reports shed light on the noteworthy challenges faced by analysts, which are succinctly outlined below for your swift reference
@@ -27,7 +27,7 @@ After examining the survey results and drawing insights from my interactions wit
 Alright, now that we have insights into what needs fixing, let's explore where and by whom this problem can be addressed. Before that, let's discuss the origin of the alerts. You may have already guessed it. Hooray! It's none other than **DATA**.
 
 ## The Source
-Before delving further into the discussion about alert tuning, let's focus on data. In general, data manifests in three primary forms, categorized as logs, metrics, and traces (a combination of events). A visual representation of these forms is provided in the image below. Credits for this simplified explanation go to Cribl, an observability product company that will be discussed later in this post.
+Before delving further into the discussion about alert tuning, let's focus on data. In general, data manifests in three primary forms, categorized as logs, metrics, and traces (a combination of events). A visual representation of these forms is provided in the image below. Credits for this simplified explanation go to Cribl, an observability data pipeline product company that will be discussed later in this post.
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/76ff400c-a3fa-4476-9ba4-ef836dc2a0fb)
 > Credits : Cribl
@@ -91,16 +91,16 @@ Key insights gathered so far reveal a concerning trend.
 
 ## Observability
 
-As per Cribl : Observability pipeline gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure.
+As per Cribl : Observability data pipeline gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure.
 
-As per Dynatrace : In IT and cloud computing, observability is the ability to measure a system’s current state based on the data it generates, such as logs, metrics, and traces. Observability has become more critical in recent years as cloud-native environments have gotten more complex, and the potential root causes for a failure or anomaly have become more difficult to pinpoint.
+As per Dynatrace : In IT and cloud computing, observability data pipeline is the ability to measure a system’s current state based on the data it generates, such as logs, metrics, and traces. Observability data pipeline has become more critical in recent years as cloud-native environments have gotten more complex, and the potential root causes for a failure or anomaly have become more difficult to pinpoint.
 
-From the preceding explanations, you may now possess a comprehensive understanding of the observability pipeline. Let's delve into Cribl as our observability platform of choice. A visual representation of Cribl is provided in a high-level diagram for your reference.
+From the preceding explanations, you may now possess a comprehensive understanding of the observability data pipeline. Let's delve into Cribl as our observability data pipeline platform of choice. A visual representation of Cribl is provided in a high-level diagram for your reference.
 
 ![image](https://github.com/blUeBUg200/observability-alertfatigue/assets/86832373/cd4765f2-8565-4462-9581-f6ff6d4c9c58)
 > Credits : Cribl
 
-We've selected three significant challenges from the previous section, and we will explore how an observability pipeline like Cribl can assist in overcoming these issues.
+We've selected three significant challenges from the previous section, and we will explore how an observability data pipeline like Cribl can assist in overcoming these issues.
 
 **PROBLEM #1 - COMPLEXITY OF ADDING NEW DATA**  
 Incorporating data sources into Cribl is remarkably straightforward. It facilitates a native log collection mechanism and boasts extensive integrations for cloud-native applications. Below links for your reference,  
@@ -125,7 +125,7 @@ The graph below originates from my home lab(24 hours span), featuring my pfsense
 
 - Based on the analysis presented in this post, it is evident that analyst burnout is a serious concern, underscoring the need to implement an optimal detection engineering process to alleviate such challenges. 
 
-- Providing detection engineers with versatile and scalable tools is essential. These tools empower the team to choose the appropriate data for threat detection and maintain control over the ingestion pipeline to perform operations that enrich contextual information. When it comes to acting as a sword and shield for your detection engineers, there is no better choice than an Observability tool, such as Cribl, to execute tasks with higher precision.
+- Providing detection engineers with versatile and scalable tools is essential. These tools empower the team to choose the appropriate data for threat detection and maintain control over the ingestion pipeline to perform operations that enrich contextual information. When it comes to acting as a sword and shield for your detection engineers, there is no better choice than an Observability data pipeline, such as Cribl, to execute tasks with higher precision.
 
 - Leveraging frameworks like CTID's Sensor Mappings to ATT&CK (SMAP) enhances the mindset of your detection engineers when it comes to selecting the appropriate data for analytics. Additionally, sources such as Sigma HQ and MITRE Cyber Analytics Repository (CAR) contribute to a vendor-agnostic approach in deploying use cases.
 
